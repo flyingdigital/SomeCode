@@ -1,0 +1,20 @@
+{% extends 'template.html' %}
+
+
+{% block detail %}
+    <div class="list-group-item item_article">
+        <div class="row">
+            <div class="div_center col-xs-9">
+                <div class="list-group-item-heading div_article_title">
+                    <strong style="text-align: center">
+                        {{ post.title }}
+                    </strong>
+	    <p style="text-align: center">~{{ post.created_time }}~{{ post.category.category }}</p>
+                </div>
+                <p class="list-group-item-text div_article_content">
+                    {{ post.article }}
+                </p>
+            </div>
+        </div>
+    </div>
+{% endblock %}

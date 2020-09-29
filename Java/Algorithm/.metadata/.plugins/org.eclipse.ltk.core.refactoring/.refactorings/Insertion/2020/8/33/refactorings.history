@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.flyingdgital.inserting&apos; to &apos;com.flyingdgital.insertion&apos;&#x0D;&#x0A;- Original project: &apos;Insertion&apos;&#x0D;&#x0A;- Original element: &apos;Insertion/src/com.flyingdgital.inserting&apos;&#x0D;&#x0A;- Renamed element: &apos;Insertion/src/com.flyingdgital.insertion&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.flyingdgital.inserting&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.flyingdgital.inserting" name="com.flyingdgital.insertion" qualified="false" references="true" stamp="1597227183123" textual="false" version="1.0"/>
+</session>

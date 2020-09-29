@@ -1,0 +1,8 @@
+package com.flyingdigital.XiEr;
+
+public class XiErTest {
+	Integer[] arr = {5,2,1,7,4,8,6,8};
+	
+	XiEr.sort(arr);
+	System.out.println(Arrays.toString(arr));
+}

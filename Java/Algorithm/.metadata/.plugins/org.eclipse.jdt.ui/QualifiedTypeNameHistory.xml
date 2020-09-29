@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="com.flyingdigital.comparable.Student"/>
+<fullyQualifiedTypeName name="com.flyingdigital.bubble.Bubble"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="com.flyingdigital.select.Select"/>
+<fullyQualifiedTypeName name="com.flyingdgital.insertion.Insertion"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="javax.xml.ws.AsyncHandler"/>
+<fullyQualifiedTypeName name="com.flyingdigital.merge.MergeTest"/>
+<fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="javax.naming.ldap.SortControl"/>
+<fullyQualifiedTypeName name="java.lang.Comparable"/>
+</qualifiedTypeNameHistroy>

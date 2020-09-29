@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+</head>
+<body>
+h
+<form action="" method="post">
+    {% csrf_token %}
+    用户名：<input type="text" name="username" id="username"><br>
+    密码： <input type="text" name="password" id="password"><br>
+    <input type="button" name="button" value="提交" id="button">
+
+</form>
+
+{% load static %}
+<script src='{% static "js/jquery-3.4.1.min.js" %}' charset="UTF-8"></script>
+
+<script>
+    $("#button").click(function () {
+        $.ajax({
+            type: 'POST',
+            url: '/App/ajax_register/',
+            dataType: "json",
+            data: {
+                username: $("#username").val(),
+                password: $("#password").val(),
+                csrfmiddlewaretoken: $('[type="hidden"]').val()
+            },
+            success: function (data) {
+                alert("成功")
+            },
+            error: function (data) {
+                alert("失败")
+            }
+        });
+    });
+
+</script>
+</body>
+</html>
